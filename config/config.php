@@ -7,12 +7,12 @@ return [
      */
     'redirect_url' => '/',
     /*
-     * API Key (http://steamcommunity.com/dev/apikey)
+     * API Key (set in .env file) [http://steamcommunity.com/dev/apikey]
      */
-    'api_key' => 'API_Key',
+    'api_key' => env('STEAM_API_KEY', ''),
     /*
      * Is using https ?
      */
-    'https' => false
+    'https' => false,
 
 ];
