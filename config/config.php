@@ -1,7 +1,10 @@
 <?php
 
 return [
-
+	/**
+	 * Your HTTP_HOST by default
+	 */
+	'realm' => null,
     /*
      * Redirect URL after login
      */
